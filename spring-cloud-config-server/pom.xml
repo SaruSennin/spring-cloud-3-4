@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.noSaczException</groupId>
-    <artifactId>microservice01</artifactId>
+    <artifactId>spring-cloud-config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>microservice01</name>
-    <description>microservice01</description>
+    <name>spring-cloud-config-server</name>
+    <description>spring-cloud-config-server</description>
     <url/>
     <licenses>
         <license/>
@@ -37,23 +37,13 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-            <version>4.2.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-            <version>3.4.3</version>
         </dependency>
     </dependencies>
     <dependencyManagement>
